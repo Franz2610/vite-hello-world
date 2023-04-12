@@ -1,7 +1,9 @@
-:<template>
-    <header>
-    {{ jumbo }}
-    </header>
+<template>
+    <div class="jumbo text-center align-content-center">
+   <h3>{{ jumbo }}</h3> 
+   <img :src="image" alt="vite">
+    
+    </div>
 </template>
 
 <script>
@@ -9,7 +11,8 @@
         name:'AppHero',
         data(){
             return{
-                jumbo:'La mia prima app con Vite!'
+                jumbo:'Jumbo!',
+                image :'https://vitejs.dev/logo-with-shadow.png'
             }
         }
         
