@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+#app{
+}
 header{
-    margin: 0 auto;
     font-size: bold;
 }
+header:hover{
+    color: blueviolet;
+}
 .jumbo{
-    margin: 0 auto;
+    display: flex;
+    height: 300px;
+}
+.jumbo img{
+    height: 50%;
 }
